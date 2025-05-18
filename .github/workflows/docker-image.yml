@@ -6,7 +6,7 @@ on:
       - main  # or your deployment branch
 
 env:
-  AWS_REGION: ap-south-1
+  AWS_REGION: eu-north-1
   ECR_REPOSITORY: nginx-repo
   IMAGE_TAG: latest
 
