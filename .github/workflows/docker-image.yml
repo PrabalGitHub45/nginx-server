@@ -30,6 +30,6 @@ jobs:
 
       - name: Build, tag, and push Docker image to Amazon ECR
         run: |
-          docker build -t nginx-repo .
+          docker build -t nginx-repo:latest .
           docker tag nginx-repo:latest 876108002345.dkr.ecr.eu-north-1.amazonaws.com/nginx-repo:latest
           docker push 876108002345.dkr.ecr.eu-north-1.amazonaws.com/nginx-repo:latest
